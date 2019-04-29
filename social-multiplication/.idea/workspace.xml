@@ -2,16 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="165a0e69-6cbf-4df1-9246-946f7e718a65" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/social-multiplication.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/microservices/book/multiplication/controller/MultiplicationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/microservices/book/multiplication/controller/MultiplicationController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/microservices/book/multiplication/controller/MultiplicationResultAttemptController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/microservices/book/multiplication/controller/MultiplicationResultAttemptController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/microservices/book/multiplication/domain/Multiplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/microservices/book/multiplication/domain/Multiplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/microservices/book/multiplication/domain/MultiplicationResultAttempt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/microservices/book/multiplication/domain/MultiplicationResultAttempt.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/microservices/book/multiplication/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/microservices/book/multiplication/domain/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/microservices/book/multiplication/service/MultiplicationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/microservices/book/multiplication/service/MultiplicationService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/microservices/book/multiplication/service/MultiplicationServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/microservices/book/multiplication/service/MultiplicationServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/multiplication-client.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/multiplication-client.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/microservices/book/multiplication/controller/MultiplicationResultAttemptControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/microservices/book/multiplication/controller/MultiplicationResultAttemptControllerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/microservices/book/multiplication/service/MultiplicationServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/microservices/book/multiplication/service/MultiplicationServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/microservices/book/multiplication/controller/MultiplicationController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/microservices/book/multiplication/controller/MultiplicationController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/microservices/book/multiplication/controller/MultiplicationResultAttemptController$ResultResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/microservices/book/multiplication/controller/MultiplicationResultAttemptController$ResultResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/microservices/book/multiplication/controller/MultiplicationResultAttemptController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/microservices/book/multiplication/controller/MultiplicationResultAttemptController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/microservices/book/multiplication/domain/Multiplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/microservices/book/multiplication/domain/Multiplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/microservices/book/multiplication/domain/MultiplicationResultAttempt.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/microservices/book/multiplication/domain/MultiplicationResultAttempt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/microservices/book/multiplication/domain/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/microservices/book/multiplication/domain/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/microservices/book/multiplication/service/MultiplicationService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/microservices/book/multiplication/service/MultiplicationService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/microservices/book/multiplication/service/MultiplicationServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/microservices/book/multiplication/service/MultiplicationServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/multiplication-client.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/multiplication-client.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/microservices/book/multiplication/controller/MultiplicationResultAttemptControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/microservices/book/multiplication/controller/MultiplicationResultAttemptControllerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/microservices/book/multiplication/service/MultiplicationServiceImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/microservices/book/multiplication/service/MultiplicationServiceImplTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,34 +49,42 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="class" value="2" />
+          <entry key="html" value="2" />
           <entry key="iml" value="1" />
-          <entry key="java" value="13" />
-          <entry key="js" value="1" />
-          <entry key="properties" value="1" />
-          <entry key="xml" value="1" />
+          <entry key="java" value="32" />
+          <entry key="js" value="3" />
+          <entry key="properties" value="3" />
+          <entry key="xml" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
+          <entry key="CLASS" value="2" />
+          <entry key="HTML" value="2" />
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="13" />
-          <entry key="JavaScript" value="1" />
-          <entry key="Properties" value="1" />
-          <entry key="XML" value="1" />
+          <entry key="JAVA" value="32" />
+          <entry key="JavaScript" value="3" />
+          <entry key="Properties" value="3" />
+          <entry key="XML" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="2899" />
-          <entry key="properties" value="316" />
-          <entry key="xml" value="130" />
+          <entry key="html" value="114" />
+          <entry key="java" value="4909" />
+          <entry key="js" value="347" />
+          <entry key="properties" value="322" />
+          <entry key="xml" value="131" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2899" />
-          <entry key="Properties" value="316" />
-          <entry key="XML" value="130" />
+          <entry key="HTML" value="114" />
+          <entry key="JAVA" value="4909" />
+          <entry key="JavaScript" value="347" />
+          <entry key="Properties" value="322" />
+          <entry key="XML" value="131" />
         </counts>
       </usages-collector>
     </session>
@@ -72,73 +92,88 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/microservices/book/multiplication/domain/MultiplicationResultAttempt.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="302">
-              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/microservices/book/multiplication/repository/MultiplicationResultAttemptRepository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" column="89" selection-start-line="12" selection-start-column="89" selection-end-line="12" selection-end-column="89" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/microservices/book/multiplication/repository/UserRepository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" column="51" selection-start-line="11" selection-start-column="51" selection-end-line="11" selection-end-column="51" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/microservices/book/multiplication/repository/MultiplicationRepository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/microservices/book/multiplication/service/MultiplicationServiceImplTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="81" column="48" selection-start-line="81" selection-start-column="48" selection-end-line="81" selection-end-column="48" />
+            <state relative-caret-position="-249">
+              <caret line="57" column="31" selection-start-line="57" selection-start-column="31" selection-end-line="57" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/microservices/book/multiplication/service/MultiplicationServiceTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/microservices/book/multiplication/controller/MultiplicationResultAttemptController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="416">
+              <caret line="47" column="5" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/microservices/book/multiplication/controller/MultiplicationControllerTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="49" selection-start-line="49" selection-end-line="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/microservices/book/multiplication/controller/MultiplicationResultAttemptControllerTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="188">
+              <caret line="71" column="71" selection-start-line="71" selection-start-column="71" selection-end-line="71" selection-end-column="71" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/static/multiplication-client.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="397">
+              <caret line="62" column="31" selection-start-line="62" selection-start-column="31" selection-end-line="62" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/static/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="397">
+              <caret line="32" column="35" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
+              <folding>
+                <element signature="n#style#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/microservices/book/multiplication/SocialMultiplicationApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/microservices/book/multiplication/service/MultiplicationServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="530">
-              <caret line="60" column="8" selection-start-line="60" selection-start-column="8" selection-end-line="60" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="226">
-              <caret line="30" column="21" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
+            <state relative-caret-position="340">
+              <caret line="51" column="17" lean-forward="true" selection-start-line="51" selection-start-column="17" selection-end-line="51" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -147,25 +182,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="152">
-              <caret line="8" column="45" lean-forward="true" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/microservices/book/multiplication/domain/Multiplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="32" column="27" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/microservices/book/multiplication/domain/User.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="23" column="19" lean-forward="true" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
+              <caret line="8" column="45" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -185,18 +202,22 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/microservices/book/multiplication/controller/MultiplicationResultAttemptController.java" />
-        <option value="$PROJECT_DIR$/src/test/java/microservices/book/multiplication/controller/MultiplicationResultAttemptControllerTest.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/src/main/java/microservices/book/multiplication/domain/Multiplication.java" />
-        <option value="$PROJECT_DIR$/src/main/java/microservices/book/multiplication/domain/User.java" />
         <option value="$PROJECT_DIR$/src/main/java/microservices/book/multiplication/domain/MultiplicationResultAttempt.java" />
         <option value="$PROJECT_DIR$/src/main/java/microservices/book/multiplication/repository/MultiplicationResultAttemptRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/microservices/book/multiplication/repository/UserRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/microservices/book/multiplication/repository/MultiplicationRepository.java" />
-        <option value="$PROJECT_DIR$/src/test/java/microservices/book/multiplication/service/MultiplicationServiceImplTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/microservices/book/multiplication/domain/User.java" />
         <option value="$PROJECT_DIR$/src/main/java/microservices/book/multiplication/service/MultiplicationServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/microservices/book/multiplication/service/MultiplicationService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/microservices/book/multiplication/controller/MultiplicationController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/microservices/book/multiplication/controller/MultiplicationResultAttemptController.java" />
+        <option value="$PROJECT_DIR$/src/test/java/microservices/book/multiplication/service/MultiplicationServiceImplTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/microservices/book/multiplication/controller/MultiplicationResultAttemptControllerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/multiplication-client.js" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/index.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -393,6 +414,10 @@
               <item name="multiplication" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="social-multiplication" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -401,11 +426,20 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -419,7 +453,77 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Spring Boot.SocialMultiplicationApplication">
+    <configuration name="MultiplicationControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="social-multiplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="microservices.book.multiplication.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="microservices.book.multiplication.controller" />
+      <option name="MAIN_CLASS_NAME" value="microservices.book.multiplication.controller.MultiplicationControllerTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MultiplicationResultAttemptControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="social-multiplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="microservices.book.multiplication.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="microservices.book.multiplication.controller" />
+      <option name="MAIN_CLASS_NAME" value="microservices.book.multiplication.controller.MultiplicationResultAttemptControllerTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MultiplicationServiceImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="social-multiplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="microservices.book.multiplication.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="microservices.book.multiplication.service" />
+      <option name="MAIN_CLASS_NAME" value="microservices.book.multiplication.service.MultiplicationServiceImplTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MultiplicationServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="social-multiplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="microservices.book.multiplication.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="microservices.book.multiplication.service" />
+      <option name="MAIN_CLASS_NAME" value="microservices.book.multiplication.service.MultiplicationServiceTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="microservices.book.multiplication.controller in social-multiplication" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="social-multiplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="microservices.book.multiplication.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="microservices.book.multiplication.controller" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SocialMultiplicationApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="social-multiplication" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="microservices.book.multiplication.SocialMultiplicationApplication" />
@@ -427,6 +531,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Spring Boot.SocialMultiplicationApplication" />
+      <item itemvalue="JUnit.MultiplicationServiceImplTest" />
+      <item itemvalue="JUnit.microservices.book.multiplication.controller in social-multiplication" />
+      <item itemvalue="JUnit.MultiplicationServiceTest" />
+      <item itemvalue="JUnit.MultiplicationResultAttemptControllerTest" />
+      <item itemvalue="JUnit.MultiplicationControllerTest" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.MultiplicationControllerTest" />
+        <item itemvalue="JUnit.MultiplicationServiceImplTest" />
+        <item itemvalue="JUnit.MultiplicationResultAttemptControllerTest" />
+        <item itemvalue="JUnit.MultiplicationServiceTest" />
+        <item itemvalue="JUnit.microservices.book.multiplication.controller in social-multiplication" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -438,12 +559,44 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1556509972062</updated>
-      <workItem from="1556509977774" duration="2352000" />
+      <workItem from="1556509977774" duration="7561000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="MultiplicationServiceImplTest - 2019.04.29 at 14h 27m 30s.xml">
+      <configuration name="MultiplicationServiceImplTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MultiplicationServiceImplTest - 2019.04.29 at 14h 32m 02s.xml">
+      <configuration name="MultiplicationServiceImplTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MultiplicationServiceImplTest - 2019.04.29 at 14h 32m 13s.xml">
+      <configuration name="MultiplicationServiceImplTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MultiplicationServiceImplTest - 2019.04.29 at 14h 35m 24s.xml">
+      <configuration name="MultiplicationServiceImplTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MultiplicationServiceImplTest - 2019.04.29 at 14h 38m 25s.xml">
+      <configuration name="MultiplicationServiceImplTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MultiplicationServiceImplTest - 2019.04.29 at 14h 39m 28s.xml">
+      <configuration name="MultiplicationServiceImplTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MultiplicationServiceImplTest - 2019.04.29 at 14h 48m 31s.xml">
+      <configuration name="MultiplicationServiceImplTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MultiplicationResultAttemptControllerTest - 2019.04.29 at 15h 05m 56s.xml">
+      <configuration name="MultiplicationResultAttemptControllerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MultiplicationServiceImplTest - 2019.04.29 at 15h 06m 03s.xml">
+      <configuration name="MultiplicationServiceImplTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MultiplicationControllerTest - 2019.04.29 at 15h 06m 13s.xml">
+      <configuration name="MultiplicationControllerTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2352000" />
+    <option name="totallyTimeSpent" value="7561000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -453,19 +606,19 @@
       <window_info id="Designer" />
       <window_info id="UI Designer" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="CheckStyle" />
-      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="bottom" id="Messages" weight="0.32899022" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
       <window_info anchor="bottom" id="Java Enterprise" />
-      <window_info anchor="bottom" id="Spring" />
+      <window_info anchor="bottom" id="Spring" sideWeight="0.49946696" weight="0.32899022" />
       <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" sideWeight="0.50053304" side_tool="true" weight="0.32899022" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32899022" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.32899022" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -487,81 +640,8 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/microservices/book/multiplication/SocialMultiplicationApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/microservices/book/multiplication/controller/MultiplicationResultAttemptController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="34" column="46" selection-start-line="34" selection-start-column="46" selection-end-line="34" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/microservices/book/multiplication/controller/MultiplicationResultAttemptControllerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="62" column="37" selection-start-line="62" selection-start-column="37" selection-end-line="62" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/multiplication-client.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="41" column="68" selection-start-line="41" selection-start-column="68" selection-end-line="41" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/social-multiplication.iml">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="30" column="21" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="45" lean-forward="true" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/microservices/book/multiplication/domain/Multiplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="32" column="27" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/microservices/book/multiplication/domain/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="23" column="19" lean-forward="true" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/microservices/book/multiplication/domain/MultiplicationResultAttempt.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/microservices/book/multiplication/repository/MultiplicationResultAttemptRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="89" selection-start-line="12" selection-start-column="89" selection-end-line="12" selection-end-column="89" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/microservices/book/multiplication/repository/UserRepository.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -583,26 +663,245 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/microservices/book/multiplication/service/MultiplicationServiceImplTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/microservices/book/multiplication/repository/MultiplicationResultAttemptRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="81" column="48" selection-start-line="81" selection-start-column="48" selection-end-line="81" selection-end-column="48" />
+        <state relative-caret-position="266">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/microservices/book/multiplication/domain/MultiplicationResultAttempt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="17" column="19" lean-forward="true" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/microservices/book/multiplication/domain/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/microservices/book/multiplication/SocialMultiplicationApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/1.5.20.RELEASE/spring-boot-autoconfigure-1.5.20.RELEASE.jar!/org/springframework/boot/autoconfigure/h2/H2ConsoleAutoConfiguration.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-665">
+          <caret line="52" column="33" selection-start-line="52" selection-start-column="33" selection-end-line="52" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/1.5.20.RELEASE/spring-boot-autoconfigure-1.5.20.RELEASE.jar!/org/springframework/boot/autoconfigure/h2/H2ConsoleProperties.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="35" column="45" selection-start-line="35" selection-start-column="45" selection-end-line="35" selection-end-column="45" />
+          <folding>
+            <element signature="e#1029#1030#0" expanded="true" />
+            <element signature="e#1086#1087#0" expanded="true" />
+            <element signature="e#1122#1123#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/microservices/book/multiplication/domain/Multiplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/microservices/book/multiplication/service/RandomGeneratorServiceImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/microservices/book/multiplication/service/MultiplicationService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="21" column="72" selection-start-line="21" selection-start-column="72" selection-end-line="21" selection-end-column="72" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/microservices/book/multiplication/service/MultiplicationServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="530">
-          <caret line="60" column="8" selection-start-line="60" selection-start-column="8" selection-end-line="60" selection-end-column="8" />
+        <state relative-caret-position="228">
+          <caret line="12" column="22" lean-forward="true" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/microservices/book/multiplication/controller/MultiplicationController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/microservices/book/multiplication/controller/MultiplicationResultAttemptController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="47" column="5" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/microservices/book/multiplication/service/MultiplicationServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/microservices/book/multiplication/service/MultiplicationServiceImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-249">
+          <caret line="57" column="31" selection-start-line="57" selection-start-column="31" selection-end-line="57" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/multiplication-client.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="397">
+          <caret line="62" column="31" selection-start-line="62" selection-start-column="31" selection-end-line="62" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="397">
+          <caret line="32" column="35" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
+          <folding>
+            <element signature="n#style#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/microservices/book/multiplication/controller/MultiplicationResultAttemptControllerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="71" column="71" selection-start-line="71" selection-start-column="71" selection-end-line="71" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/microservices/book/multiplication/controller/MultiplicationControllerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/microservices/book/multiplication/SocialMultiplicationApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="45" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="51" column="17" lean-forward="true" selection-start-line="51" selection-start-column="17" selection-end-line="51" selection-end-column="17" />
         </state>
       </provider>
     </entry>
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>social-multiplication</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.47976878" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

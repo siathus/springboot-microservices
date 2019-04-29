@@ -14,12 +14,13 @@ function updateMultiplication() {
 function updateStats(alias) {
     $.ajax({
         url: "http://localhost:8080/results?alias=" + alias
-    }).then(function(data) {
+    }).then(function (data) {
         $('#stats-body').empty();
-        data.forEach(function(row) {
+        data.forEach(function (row) {
             $('#stats-body').append('<tr><td>' + row.id + '</td>' +
-            '<td>' + row.resultAttempt + '</td>' +
-            '<td>' + (row.correct === true ? 'YES' : 'NO') + '</td></tr>');
+                '<td>' + row.multiplication.factorA + ' x ' + row.multiplication.factorB + '</td>' +
+                '<td>' + row.resultAttempt + '</td>' +
+                '<td>' + (row.correct === true ? 'YES' : 'NO') + '</td></tr>');
         });
     });
 }
@@ -45,7 +46,7 @@ $(document).ready(function () {
 
         // POST를 이용해 데이터 보내기
         $.ajax({
-            url: '/result',
+            url: '/results',
             type: 'POST',
             data: JSON.stringify(data),
             contentType: "application/json; charset=utf-8",
@@ -58,8 +59,6 @@ $(document).ready(function () {
                 }
             }
         });
-
-        updateMultiplication();
         updateStats(userAlias);
     });
 });
